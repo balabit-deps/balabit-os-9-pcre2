@@ -63,6 +63,12 @@ Version 10.39 29-October-2021
 
   Reformat slightly to make it C89 compatible again.
 
+23. Fixed a unicode properrty matching issue in JIT. The character was not
+fully read in caseless matching.
+
+24. Fixed an issue affecting recursions in JIT caused by duplicated data
+transfers.
+
 
 Version 10.38 01-October-2021
 -----------------------------
